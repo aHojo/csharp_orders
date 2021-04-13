@@ -31,8 +31,27 @@ namespace ACM.BL
         /// <returns></returns>
         public bool Save(Order order)
         {
-            //code that saves the passed in Order
-            return true;
+            var success = true;
+
+            if (order.HasChanges)
+            {
+                if (order.IsValid)
+                {
+                    if (order.IsNew)
+                    {
+                        // call an insert stored procedure
+                    }
+                    else
+                    {
+                        // call an update stored procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
     }
 }

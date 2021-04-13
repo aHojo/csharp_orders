@@ -24,6 +24,9 @@ namespace ACM.BL
                 product.ProductDescription = "A siberian husky stuffed animal";
                 product.CurrentPrice = 15.96M;
             }
+            Object myObj = new object();
+            Console.WriteLine($"Object {myObj.ToString()}");
+            Console.WriteLine($"Object {product.ToString()}");
             return product;
         }
 
@@ -33,8 +36,28 @@ namespace ACM.BL
         /// <returns></returns>
         public bool Save(Product product)
         {
-            //code that saves the passed in product
-            return true;
+
+            var success = true;
+
+            if (product.HasChanges)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        // call an insert stored procedure
+                    }
+                    else
+                    {
+                        // call an update stored procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
     }
 }
