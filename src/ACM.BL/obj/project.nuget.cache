@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGVfej0dsnENOFG5PGax53CpmRNDRxNuaM2+gy4pYCOrziid/C1aBEMgPdq1C1scuf+M6skfhIPlhsKQcsVJNQ==",
+  "dgSpecHash": "sACIN+L2lujhYUO3n4ujnhatLFUyHsXUTC2O1zAko0lQb8wovmwhoqZzOQJT15wCER/e51xJwNcFscuhbzYb1w==",
   "success": true,
-  "projectFilePath": "/Users/hojo/RiderProjects/ACM.BL/src/ACM.BL/ACM.BL.csproj",
+  "projectFilePath": "C:\\Users\\Jocke\\Documents\\Development\\dotnet\\csharp_orders\\src\\ACM.BL\\ACM.BL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

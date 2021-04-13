@@ -1,13 +1,20 @@
 using System;
-
+using System.Linq;
 
 namespace ACM.BL
 {
     public class CustomerRepository
     {
+        public CustomerRepository()
+        {
+            addressRepository = new AddressRepository();
+        }
+        private AddressRepository addressRepository { get; set; }
+
         /// <summary>
         /// Retrieves one customer
         /// </summary>
+        // This is a "Uses a" relationship - Collaboration
         public Customer Retrieve(int customerId)
         {
             // Create the instance of the Customer Calss
@@ -23,6 +30,7 @@ namespace ACM.BL
                 customer.EmailAddress = "kairihojo@gmail.com";
                 customer.FirstName = "Kairi";
                 customer.LastName = "Hojo";
+                customer.AddressList = addressRepository.RetrieveByCustomerId(customerId).ToList();
             }
             return customer;
         }
@@ -31,10 +39,30 @@ namespace ACM.BL
         /// Saves the current Customer
         /// </summary>
         /// <returns></returns>
+        // This is a "Uses a" relationship
         public bool Save(Customer customer)
         {
-            //code that saves the passed in customer
-            return true;
+            var success = true;
+
+            if (customer.HasChanges)
+            {
+                if (customer.IsValid)
+                {
+                    if (customer.IsNew)
+                    {
+                        // call an insert stored procedure
+                    }
+                    else
+                    {
+                        // call an update stored procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
     }
 }

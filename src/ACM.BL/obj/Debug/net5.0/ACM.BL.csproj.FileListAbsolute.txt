@@ -10,3 +10,15 @@
 /Users/hojo/RiderProjects/ACM.BL/src/ACM.BL/obj/Debug/net5.0/ACM.BL.dll
 /Users/hojo/RiderProjects/ACM.BL/src/ACM.BL/obj/Debug/net5.0/ref/ACM.BL.dll
 /Users/hojo/RiderProjects/ACM.BL/src/ACM.BL/obj/Debug/net5.0/ACM.BL.pdb
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\bin\Debug\net5.0\ACM.BL.deps.json
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\bin\Debug\net5.0\ACM.BL.dll
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\bin\Debug\net5.0\ref\ACM.BL.dll
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\bin\Debug\net5.0\ACM.BL.pdb
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.csprojAssemblyReference.cache
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.AssemblyInfoInputs.cache
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.AssemblyInfo.cs
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.dll
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ref\ACM.BL.dll
+C:\Users\Jocke\Documents\Development\dotnet\csharp_orders\src\ACM.BL\obj\Debug\net5.0\ACM.BL.pdb
