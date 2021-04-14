@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Acme.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Acme.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Acme.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Acme.Common/1.0.0": {
+      "type": "project",
+      "path": "../Acme.Common/Acme.Common.csproj",
+      "msbuildProject": "../Acme.Common/Acme.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Acme.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/hojo/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/Acme.Common.csproj": {
+              "projectPath": "/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/Acme.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

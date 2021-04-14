@@ -2,7 +2,7 @@ using Acme.Common;
 
 namespace ACM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -30,6 +30,7 @@ namespace ACM.BL
             }
         }
 
+        public string Log() => $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
 
         ///<summary>
         /// Validates the product Data

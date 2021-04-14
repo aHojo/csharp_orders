@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AguIF1qLNrsDU8imsGuLesPY+k7+5O5DrLMcvLoXusrM14EmNUXb9CinisOhMr2H/U/2VomPEl5QYcDWZ5NmUA==",
+  "dgSpecHash": "23+WyWOVdL/tCGkY4b6Az6xfS1H9XBy6z5bbHeaXPbr+0YnYKeTT5+ims4paMNVz+diSHN4IrdM+wiI+YGan+A==",
   "success": true,
   "projectFilePath": "/Users/hojo/RiderProjects/ACM.BL/tests/Acme.Common.Test/Acme.Common.Test.csproj",
   "expectedPackageFiles": [

@@ -99,3 +99,5 @@
 /Users/hojo/RiderProjects/ACM.BL/tests/Acme.Common.Test/obj/Debug/net5.0/ref/Acme.Common.Test.dll
 /Users/hojo/RiderProjects/ACM.BL/tests/Acme.Common.Test/obj/Debug/net5.0/Acme.Common.Test.pdb
 /Users/hojo/RiderProjects/ACM.BL/tests/Acme.Common.Test/obj/Debug/net5.0/Acme.Common.Test.genruntimeconfig.cache
+/Users/hojo/RiderProjects/ACM.BL/tests/Acme.Common.Test/bin/Debug/net5.0/ACM.BL.dll
+/Users/hojo/RiderProjects/ACM.BL/tests/Acme.Common.Test/bin/Debug/net5.0/ACM.BL.pdb
