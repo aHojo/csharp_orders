@@ -1,0 +1,12 @@
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/bin/Debug/net5.0/Acme.Common.deps.json
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/bin/Debug/net5.0/Acme.Common.dll
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/bin/Debug/net5.0/ref/Acme.Common.dll
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/bin/Debug/net5.0/Acme.Common.pdb
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.csprojAssemblyReference.cache
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.AssemblyInfoInputs.cache
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.AssemblyInfo.cs
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.csproj.CoreCompileInputs.cache
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.dll
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/ref/Acme.Common.dll
+/Users/hojo/RiderProjects/ACM.BL/src/Acme.Common/obj/Debug/net5.0/Acme.Common.pdb
